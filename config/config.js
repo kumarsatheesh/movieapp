@@ -4,7 +4,7 @@ if (process.env.NODE_ENV === "production") {
   key = {
     secretOrKey: "test",
     mongoURI: "mongodb+srv://root:root123@cluster0.yomhv.mongodb.net/?retryWrites=true&w=majority",
-    port: 2053,
+    port: 3000,
   };
 } else {
   console.log("Set Development Config");
