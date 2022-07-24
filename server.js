@@ -70,6 +70,6 @@ app.get("/", (req, res) => {
   return res.send("User Service Working");
 });
 
-server.listen(config.port, function () {
+server.listen(process.env.PORT || config.port, function () {
   console.log(`server is running on port ${config.port}`);
 });
